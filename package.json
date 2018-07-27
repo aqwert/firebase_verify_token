@@ -1,0 +1,16 @@
+{
+  "name": "firebase_verify_token",
+  "version": "0.1.0",
+  "description": "A admin Google Cloud function to verify a firebase token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lance Johnstone",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^5.11.0",
+    "firebase-functions": "^1.0.0",
+    "serverless-google-cloudfunctions": "^1.2.0"
+  }
+}
